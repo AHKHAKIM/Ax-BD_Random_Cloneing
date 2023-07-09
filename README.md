@@ -1,5 +1,6 @@
 # Ax-10
 ```python
+
 cd
 
 pkg update 
@@ -18,8 +19,9 @@ pkg install git
 
 rm -rf Ax-10
 
-git clone https://github.com/AHKHAKIM/Ax-10.git
-cd AX-10
+git clone https://github.com/AHKHAKIM/Ax-BD_Random_Cloneing.git
 
-python3 Ax-10
+cd Ax-BD_Random_Cloneing
+
+python Ax-10
 ```
