@@ -22,3 +22,4 @@ git clone https://github.com/AHKHAKIM/Ax-10.git
 cd AX-10
 
 python3 Ax-10
+```
