@@ -182,7 +182,7 @@ def xxr():
         jalan(f'\033[0;97m[{xr}^{x}] \033[0;92mSuper Fast Speed Cloning')
         jalan('\033[1;34m====================================================')
         for love in user:
-            pwx = [love[1:]]
+            pwx = [love,'fuckyou','Bushra','bangladesh','iloveyousumaiya','Bangladesh','free@fire','Free@fire',]
             uid = code+love
             for Eman in HamiiID:
                 pwx.append(Eman)
