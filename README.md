@@ -17,8 +17,7 @@ pkg install git
 
 rm -rf AX-10
 
-git clone https://github.com/SEFAT-MAHADI/SPIDER.git
-
+git clone https://github.com/AHKHAKIM/Ax-10.git
 cd AX-10
 
 python3 AX-10
