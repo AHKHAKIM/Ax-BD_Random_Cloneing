@@ -1,4 +1,5 @@
 # Ax-10
+```python
 cd
 
 pkg update 
