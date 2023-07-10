@@ -139,7 +139,7 @@ def xxr():
     os.geteuid
     os.system("clear")
     print(logo)
-    print(f' [{xr}^{x}] Example>: {xr}013,014,015,016,017,018,019{x}')
+    print(f' [{xr}^{x}] Example>: {xr}013,014,015,016,017,018,019,0189,0191,{x}')
     print(" ══════════════════════════════════════════")
     #input(f' [{xr}■{x}] Choose : ')
     rk1 = '013'
