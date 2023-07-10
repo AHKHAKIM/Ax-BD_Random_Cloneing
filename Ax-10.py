@@ -139,20 +139,20 @@ def xxr():
     os.geteuid
     os.system("clear")
     print(logo)
-    print(f' [{xr}^{x}] Example>: {xr}017,019,018,016,0171,0191{x}')
+    print(f' [{xr}^{x}] Example>: {xr}013,014,015,016,017,018,019{x}')
     print(" ══════════════════════════════════════════")
     #input(f' [{xr}■{x}] Choose : ')
-    rk1 = '0171'
-    rk2 = '0172'
-    rk3 = '0175'
-    rk4 = '017'
-    rk5 = '0191'
-    rk6 = '0192'
-    rk7 = '0195'
-    rk8 = '019'
-    rk9 = '018'
-    rk10 = '0181'
-    rk11 = '016'
+    rk1 = '013'
+    rk2 = '014'
+    rk3 = '015'
+    rk4 = '016'
+    rk5 = '017'
+    rk6 = '018'
+    rk7 = '019'
+    rk8 = '0191'
+    rk9 = '0181'
+    rk10 = '0189'
+    rk11 = '0167'
     rk12 = '0161'
     code = input(f' [{xr}■{x}] Choose : ') #random.choice([rk1,rk2,rk3])                       
     os.system('clear')
